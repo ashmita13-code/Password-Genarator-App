@@ -1,0 +1,68 @@
+.container{
+  background-color: rgb(221, 118, 118);
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+}
+
+.p-box{
+  background-color: rgba(186, 182, 182, 0.826);
+  padding:22px 22px;
+  width:30%;
+  height:65%; 
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+
+h3{
+  color:black;
+  font-size:larger;
+  text-align: center;
+}
+
+.answer{
+  display:flex;
+  gap:10px;
+  margin: 10px;
+}
+.answer input{
+  width:260px;
+  height:20px;
+  padding:2px;
+  border-radius: 4px;
+}
+.answer button{
+  width:100px;
+  height:30px;
+  padding:2px;
+  border-radius:4px;
+  background-color:rgb(207, 55, 55);
+}
+.answer button:hover{
+  background-color:rgb(203, 81, 81);
+  
+}
+
+.passLength{
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.passLength input{
+  width:60px;
+}
+
+.btn{
+  width:370px;
+  padding:7px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: rgb(207, 55, 55);
+}
+.btn:hover{
+  background-color:rgb(203, 81, 81);
+}
